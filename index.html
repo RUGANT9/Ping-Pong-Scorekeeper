@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="body">
+    <h1 class="heading">PING PONG SCORE KEEPER</h1>
+    <div id="notheading">
+        <div class="scorelimitsection">
+            <label for="score_limit" id="score_label">PLEASE ENTER THE SCORE LIMIT</label>
+            <input type="number" name="score_limit" id="score_limit" min="0" max="25" value="5">
+        </div>
+        <div class="playerscoresection">
+            <button id="player_1_btn">Player 1 Score</button>
+            <textarea name="final_score" id="final_score" cols="10" rows="1"></textarea>
+            <button id="player_2_btn">Player 2 Score</button>
+            <br>
+            <br>
+            <br>
+            <textarea name="result" id="result" cols="10" rows="1"></textarea>
+            <br>
+            <br>
+            <br>
+            <button id="reset_btn">Reset</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
